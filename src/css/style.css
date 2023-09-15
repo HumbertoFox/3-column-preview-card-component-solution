@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+html {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+html body {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+html body main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 920px;
+    height: 500px;
+    border-radius: 5px;
+}
+html body main div {
+    flex: 1;
+    padding: 47px 50px 47px 47px;
+}
+html body main div.sedans {
+    background-color: var(--Bright-orange);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+html body main div.sedans button {
+    color: var(--Bright-orange);
+}
+html body main div.suvs {
+    background-color: var(--Dark-cyan);
+}
+html body main div.suvs button {
+    color: var(--Dark-cyan);
+}
+html body main div.luxury {
+    background-color: var(--Very-dark-cyan);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+html body main div.luxury button {
+    color: var(--Very-dark-cyan);
+}
+html body main div img {
+    margin-bottom: 31px;
+}
+html body main div h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--Very-light-gray);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+html body main div p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Transparent-white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: .5px;
+    margin-bottom: 82px;
+}
+html body main div button {
+    width: 148px;
+    height: 48px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: url(../images/pointer.svg), auto;
+}
+html body main div button:hover {
+    border: 2px solid var(--Very-light-gray);
+    color: var(--Very-light-gray);
+    background-color: transparent;
+}
+body .attribution {
+    font-size: 11px; text-align: center;
+}
+body .attribution a {
+    color: hsl(228, 45%, 44%);
+}

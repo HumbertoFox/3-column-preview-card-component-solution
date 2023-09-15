@@ -1,0 +1,23 @@
+@media(max-width: 992px) {
+    html body {
+        width: 375px;
+        justify-content: start;
+    }
+    html body main {
+        max-width: 327px;
+        height: 1326px;
+        margin-top: 90px;
+    }
+    html body main div.sedans {
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+    }
+    html body main div.luxury {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    html body main div p {
+        margin-bottom: 23px;
+    }
+}
